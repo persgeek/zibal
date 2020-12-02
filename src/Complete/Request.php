@@ -22,7 +22,7 @@ class Request
      */
     public function address()
     {
-        return require('data/address.php');
+        return require 'data/address.php';
     }
 
     /**
@@ -30,7 +30,7 @@ class Request
      */
     public function headers()
     {
-        return require('data/headers.php');
+        return require 'data/headers.php';
     }
 
     /**
@@ -38,7 +38,7 @@ class Request
      */
     public function params()
     {
-        return require('data/params.php');
+        return require 'data/params.php';
     }
 
     /**
